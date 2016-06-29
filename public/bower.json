@@ -1,0 +1,24 @@
+{
+  "name": "laravel-apz",
+  "version": "0.0.0",
+  "authors": [
+    "Duy Tung"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "http://inglishshare.demo.siten.vn/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "bootstrap": "^3.3.6",
+    "angular-cookies": "^1.5.7"
+  }
+}

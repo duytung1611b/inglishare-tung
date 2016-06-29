@@ -1,0 +1,3 @@
+email,password,profileImage,gender,description,userType,firstName,lastName,banned,birthday,roleId
+tung3@gmail.com,1234556,anh2.jbg,2,mo ta 2,google+,Duy,tung2,FALSE,01/01/2001,2
+

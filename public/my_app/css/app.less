@@ -1,0 +1,94 @@
+body{
+	background-color: #e6f9ff;
+	
+}
+.add-user{
+	float: none;
+	margin: auto;
+	h1
+	{ 
+		text-align: center;
+		margin: 50px 0;
+	}
+	.error{
+		display: none;
+	}
+	button{
+		width: 40%;
+		height: 35px;
+		&[type=reset]{
+			float: right;
+		}
+		&#login{
+			width: 100%;
+		}
+
+	}
+
+	.radio-inline{
+		margin-left: 30px;
+	}
+
+
+
+	.login-fb{
+		border-bottom: 2px solid grey;
+		margin: 50px 0;
+		padding-bottom: 30px;
+		p{
+			text-align: center;
+			padding-bottom: 10px;
+		}
+		a{
+			margin: auto;
+			width: 70%;
+			display: block;
+			padding: 10px;
+			background: #3b5998;
+			margin-bottom: 20px;
+			font-size: 20px;
+			color: white;
+			text-align: center;
+
+			&.google{
+				background: red;
+			}
+			.fa{
+				float: left;
+				font-size: 35px;
+			}
+		}
+	}
+}
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	// width: 40%;
+
+}
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+	.add-user{
+		width: 70%;
+	}
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+	.add-user{
+		// width: 95%;
+	}
+
+}
+
+
